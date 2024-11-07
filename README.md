@@ -44,6 +44,17 @@ Scan a list of targets, display the star count, language composition, number of 
 sastsweep -repos targets.txt -stars -lang -forks -contributors -filter-last-commit 2024/01/01- -filter-stars -5000 -filter-security-issues 0
 ```
 
+
+Run with p/python config
+```
+sastsweep -config-path sastsweep.conf ...
+```
+
+sastsweep.conf
+```
+FLAGS=--config p/python
+```
+
 # Installation
 Linux is currently the only supported and tested platform <br>
 `sastsweep` requires go >= 1.23 to install successfully. Run the following command to install `sastsweep`
@@ -154,10 +165,12 @@ Usage of ./sastsweep:
 - Cross-platform support
 - More matchers/filters
 - More testing
-- CodeQL support
+- Write to output/database
+- CodeQL, trufflehog support
+
 
 # Acknowledgements
-Thanks to all the devs of <a href="https://github.com/semgrep/semgrep">@semgrep/semgrep</a>, this tool would be impossible without it <br>
+Thanks to everyone <a href="https://github.com/semgrep/semgrep">@semgrep/semgrep</a>, this tool would be impossible without it <br>
 Inspired by <a href="https://github.com/projectdiscovery/httpx">@projectdiscovery/httpx</a> 🩷 <br>
 
 --------
