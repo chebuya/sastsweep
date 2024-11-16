@@ -4,7 +4,7 @@
 
 If you find a vulnerability in sastsweep and would like to report it (thank you 🙏), please DM me on Twitter [@_chebuya](https://x.com/_chebuya)
 
-Also consider sumbitting a security report here: it was prevent a lot of the initial back and forth
+Also consider sumbitting a security report here: it will prevent a lot of the initial back and forth
 
 ![image](https://github.com/user-attachments/assets/db41c09c-d6a3-4dfe-8f89-d5dfb30555bc)
 
