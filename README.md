@@ -1,7 +1,9 @@
-<h1 align="center">
-  <img src="https://github.com/user-attachments/assets/df749c65-3709-43ac-a76d-685681132e2b" alt="sastsweep" width="500px" height=auto>
+
+
+<p align="center">
+  sastsweep is a tool designed for identifying vulnerabilities in open source codebases at scale. It can gather and filter on key repository metrics such as popularity and project size, enabling targeted vulnerability research. It automatically detects potential vulnerabilities using semgrep and provides a streamlined HTML report, allowing researchers to quickly drill down to the affected portion of the codebase.
   <br>
-</h1>
+</p>
 
 <p align="center">
 <a href="https://opensource.org/license/agpl-v3"><img src="https://img.shields.io/badge/license-GPLv3-blue"></a>
@@ -20,7 +22,6 @@
 
 <video src="https://github.com/user-attachments/assets/bda95efd-07ee-46f3-82f0-b37e229ac352" autoplay muted loop playsinline style="max-width: 100%;"></video>
 
-`sastsweep` is a tool designed for identifying vulnerabilities in open source codebases at scale. It can gather and filter on key repository metrics such as popularity and project size, enabling targeted vulnerability research. It automatically detects potential vulnerabilities using semgrep and provides a streamlined HTML report, allowing researchers to quickly drill down to the affected portion of the codebase.
 
 # Examples
 
